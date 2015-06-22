@@ -6,7 +6,7 @@
     "start": "node xxx.js"
   },
   "dependencies": {
-    "http": "~1.11.1"
+    "cheerio": "~0.19.0"
   },
   "keywords": [
     "node",

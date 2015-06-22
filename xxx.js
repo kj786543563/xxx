@@ -7,7 +7,6 @@ var MyReq = (function () {
         var http = require('http');
         //var $ = require('jquery');
         var cheerio = require('cheerio');
-        var querystring = require('querystring');
         //http://44fuck.com/albums
         var options = [
         {
