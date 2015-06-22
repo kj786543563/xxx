@@ -1,0 +1,17 @@
+{
+  "name": "NodeXXX",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node xxx.js"
+  },
+  "dependencies": {
+    "http": "~1.11.1"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "XXX"
+  ],
+  "license": "MIT"
+}
