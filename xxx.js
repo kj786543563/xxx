@@ -63,8 +63,9 @@ var server = http.createServer(function (req, res) {
     });
 
 });
-server.listen(PORT);
-console.log('server start up!port:' + PORT);
+var port = process.env.PORT || PORT;
+server.listen(port);
+console.log('server start up!port:' + port);
 // var fs=require("fs"); 
 // var data = fs.readFileSync("./addressList.txt",'utf8');
 // console.log(data);
