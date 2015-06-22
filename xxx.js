@@ -45,7 +45,7 @@ var MyReq = (function () {
     }
     return MyReq;
 })();
-var PORT = 8888;
+var PORT = 80;
 
 var server = http.createServer(function (req, res) {
     res.writeHeader(200, {
